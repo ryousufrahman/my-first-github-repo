@@ -1,0 +1,15 @@
+#first{
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}
+button{
+    background-color: orange;
+}
