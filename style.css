@@ -18,3 +18,26 @@ button{
     background-color: aqua;
     width: 200px; 
 }
+#third{
+    background-color: yellow;
+    
+}
+
+#box1 , #box2 , #box3 , #box4 {
+ background-color: aqua;
+ margin: 20px;
+ height: 200px;
+ width: 200px;
+ border: 10px solid pink;
+ display: inline-block;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+}
+
+#fourth{
+    background-color: red;
+    position: sticky;
+}
