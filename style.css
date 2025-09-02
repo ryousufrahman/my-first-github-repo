@@ -1,43 +1,37 @@
-#first{
-    background-color: black;
-    color: white;
-    height: 60px;
-}
-#logo{
-    color: orange;
-    font-size: 25px;
-}
-a{
-    margin-right: 200px;
-}
-button{
-    background-color: orange;
-}
-
-#second{
-    background-color: aqua;
-    width: 200px; 
-}
-#third{
-    background-color: yellow;
+nav > ul {
+    display: flex 
     
 }
-
-#box1 , #box2 , #box3 , #box4 {
- background-color: aqua;
- margin: 20px;
- height: 200px;
- width: 200px;
- border: 10px solid pink;
- display: inline-block;
+li{
+    text-decoration: none;
+    margin-right: 250px;
+    list-style: none;
+    padding: 10px;
 }
-
-header{
+a {
+    text-decoration: none;
+    color: white;
+}
+nav li:hover{
+    background-color: gray;
+}
+nav{
+    background-color: black;
     position: fixed;
     top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
 }
-
-#fourth{
-    background-color: red;
-    position: sticky;
+article{
+    margin-top: 100px;
+}
+main{
+    background-color: blue;
+}
+footer{
+    margin-top: 0px;
+    height: max-content;
+    background-color: yellowgreen;
+    text-align: center;
 }
